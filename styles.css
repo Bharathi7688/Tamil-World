@@ -1,0 +1,24 @@
+/* Custom Animations */
+@keyframes pulseGlow {
+    0% { box-shadow: 0 0 5px rgba(234, 179, 8, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(234, 179, 8, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(234, 179, 8, 0.5); }
+  }
+  
+  .pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  .slide-in {
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  /* Tamil-themed Background */
+  .bg-tamil {
+    background: linear-gradient(135deg, #ff9933, #138808);
+  }
